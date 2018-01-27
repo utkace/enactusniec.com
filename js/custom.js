@@ -157,7 +157,7 @@
     $(center).slick({
         centerMode: true,
         infinite: true,
-        centerPadding: '60px',
+        centerPadding: '50px',
         arrows: true,
         autoplay: false,
         autoplaySpeed: 2000,
@@ -166,7 +166,7 @@
         responsive: [{
             breakpoint: 1024,
             settings: {
-                arrows: false,
+                arrows: true,
                 centerMode: true,
                 centerPadding: '60px',
                 slidesToShow: 1
