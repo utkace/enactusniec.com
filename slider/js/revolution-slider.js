@@ -31,7 +31,7 @@
                                     style: "uranus",
                                     enable: true,
                                     hide_onmobile: true,
-                                    hide_onleave: false,
+                                    hide_onleave: true,
                                     tmp: '',
                                     left: {
                                         h_align: "left",

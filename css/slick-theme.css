@@ -3,7 +3,7 @@
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
-.slick-next:focus{color:transparent;outline:none;background:transparent;}
+.slick-next:focus{color:transparent;outline:none;background:transparent;opacity:1 !important;}
 .slick-prev:hover:before,
 .slick-prev:focus:before,
 .slick-next:hover:before,

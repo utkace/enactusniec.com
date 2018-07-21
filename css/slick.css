@@ -17,4 +17,4 @@
 .slick-initialized .slick-slide{display:block;}
 .slick-loading .slick-slide{visibility:hidden;}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent;}
-.slick-arrow.slick-hidden{display:none;}
+.slick-arrow.slick-hidden{display:inline-block !important;}
