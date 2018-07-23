@@ -103,4 +103,6 @@ $(document).ready(function () {
         ResCarousel(ell, Parent, slide);
     }
 
+    
+
 });

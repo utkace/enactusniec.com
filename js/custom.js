@@ -110,14 +110,14 @@
         centerPadding: '60px',
         slidesToShow: 1,  // Default items to show
         dots: true,
-        arrows: false,
+        arrows: true,
         autoplay: true,
         autplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    arrows: false,
+                    arrows: true,
                     centerMode: true,
                     centerPadding: '60px',
                     slidesToShow: 1
@@ -126,7 +126,7 @@
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: false,
+                    arrows: true,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
@@ -135,7 +135,7 @@
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: false,
+                    arrows: true,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
@@ -144,6 +144,7 @@
             {
                 breakpoint: 1024,
                 settings: {
+                    arrows: true,
                     centerMode: true,
                     slidesToShow: 1,
                     centerPadding: '40px'
@@ -156,26 +157,25 @@
     var center = $('.center');
     $(center).slick({
         centerMode: true,
-        infinite: true,
+        // infinite: true,
         centerPadding: '50px',
         arrows: true,
-        autoplay: false,
-        autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 4000,
         slidesToShow: 3, //  Default items to show
 
-        responsive: [{
+        responsive: [
+            {
             breakpoint: 1024,
             settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '60px',
-                slidesToShow: 1
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 1
             }
         },
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
@@ -184,7 +184,6 @@
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
@@ -193,7 +192,6 @@
             {
                 breakpoint: 320,
                 settings: {
-                    arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
@@ -201,6 +199,7 @@
             }
         ]
     });
+
 
 })(jQuery);
 
