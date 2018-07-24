@@ -107,12 +107,12 @@
     var testim = $('.testimonials');
     $(testim).slick({
         centerMode: true,
-        centerPadding: '60px',
+        centerPadding: '80px',
         slidesToShow: 1,  // Default items to show
         dots: true,
-        arrows: true,
+        arrows: false,
         autoplay: true,
-        autplaySpeed: 2000,
+        autplaySpeed: 4000,
         responsive: [
             {
                 breakpoint: 1024,
@@ -158,16 +158,16 @@
     $(center).slick({
         centerMode: true,
         // infinite: true,
-        centerPadding: '50px',
-        arrows: true,
+        centerPadding: '30px',
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         slidesToShow: 3, //  Default items to show
 
         responsive: [
             {
             breakpoint: 1024,
             settings: {
+            arrows:true,    
             centerMode: true,
             centerPadding: '60px',
             slidesToShow: 1
@@ -176,6 +176,7 @@
             {
                 breakpoint: 768,
                 settings: {
+                    arrows:true,    
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
@@ -184,6 +185,7 @@
             {
                 breakpoint: 480,
                 settings: {
+                    arrows:false,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
@@ -192,6 +194,7 @@
             {
                 breakpoint: 320,
                 settings: {
+                    arrows:false,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
