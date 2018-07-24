@@ -443,9 +443,23 @@ section {
 /************* OUR TEAM SECTION **********/
 /*******************************************/
 
+
+
 .center {
     margin-top: 50px;
+    /* position: relative; */
 }
+
+
+.slick-arrow{
+    font-size: 70px !important;
+    color: #EAA533 !important;
+}
+
+.slick-next::after{
+    content: ' ' !important;
+}
+
 
 .team-member {
     opacity: 0.2;
