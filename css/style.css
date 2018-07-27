@@ -447,7 +447,6 @@ section {
 
 .center {
     margin-top: 50px;
-    /* position: relative; */
 }
 
 
@@ -456,10 +455,14 @@ section {
     color: #EAA533 !important;
 }
 
+
 .slick-next::after{
     content: ' ' !important;
 }
 
+.po{
+    cursor:pointer;
+}
 
 .team-member {
     opacity: 0.2;
@@ -1148,4 +1151,20 @@ footer {
     100% {
         opacity: 1;
     }
+}
+
+
+/* Scrollbar */
+::-webkit-Scrollbar{
+    width: 12px ;
+}
+
+
+::-webkit-Scrollbar-thumb{
+    background:#FEC60F ;
+    border-radius:6px;
+}
+
+::-webkit-Scrollbar-thumb:hover{
+    background:#e19e20 ;
 }
