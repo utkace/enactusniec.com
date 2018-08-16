@@ -84,11 +84,12 @@
             scroll_position = $(this).scrollTop();
             if(scroll_position > 150) {
                 $(headers).css('position', 'fixed'); // Make header fixed position
+                $(headers).css('background', '#1a1919'); // Change the sticky header background 
             } else {
                 $(headers).css('position', 'absolute'); // Return to normal header under 300px height scroll
+                $(headers).css('background', 'transparent'); // Change to normal transparent background
             }
         });
-        $(headers).css('background', '#1a1919'); // Change the sticky header background
         $(headers).css('z-index', '100');  // Stack order of the header
     }
 
